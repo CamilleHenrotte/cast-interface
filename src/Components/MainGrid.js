@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import debtList from "./photos/debtList.js";
-import react from "react";
 import { useNavigate } from "react-router-dom";
 import logo from "../Components/photos/logo.png";
 
@@ -88,9 +87,6 @@ const Gridcontainer = styled.div`
     fill: "#FFFFFF";
     color: rgba(255, 255, 255, 1);
     background-color: #b80200;
-    
-    
-    
     border: 2px solid white;
     border-radius: 8px;
   

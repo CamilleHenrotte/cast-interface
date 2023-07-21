@@ -79,7 +79,7 @@ const Home = () => {
           <button onClick={navigateToConnect}>Connect Wallet</button>
         </div>
       </Header>
-      <H1>Debt pool</H1>
+      <H1>Debts pool</H1>
       <Line />
       <H2>Live Now</H2>
       <MainGrid />
