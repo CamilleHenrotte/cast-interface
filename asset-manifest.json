@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cast-interface/static/css/main.e6c13ad2.css",
-    "main.js": "/cast-interface/static/js/main.f2d3f7fd.js",
+    "main.js": "/cast-interface/static/js/main.8d28472f.js",
     "static/media/Poppins-Regular.ttf": "/cast-interface/static/media/Poppins-Regular.1c701c9a6b587802e3d0.ttf",
     "static/media/Poppins-SemiBold.ttf": "/cast-interface/static/media/Poppins-SemiBold.5981b450a68d5134225b.ttf",
     "static/media/AXA_Logo.svg.png": "/cast-interface/static/media/AXA_Logo.svg.45f060cbca63771a6e0a.png",
@@ -12,10 +12,10 @@
     "static/media/cancel.svg": "/cast-interface/static/media/cancel.27e1122b7b0ab36750c8b14fe7fa3b74.svg",
     "index.html": "/cast-interface/index.html",
     "main.e6c13ad2.css.map": "/cast-interface/static/css/main.e6c13ad2.css.map",
-    "main.f2d3f7fd.js.map": "/cast-interface/static/js/main.f2d3f7fd.js.map"
+    "main.8d28472f.js.map": "/cast-interface/static/js/main.8d28472f.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.f2d3f7fd.js"
+    "static/js/main.8d28472f.js"
   ]
 }
