@@ -147,7 +147,7 @@ const View = () => {
         <White></White>
         <White>ERC Symbol</White>
         <White>
-          <img src={logoEthereum}></img>
+          <img src={logoEthereum} alt="logo ethereum"></img>
         </White>
         <White></White>
 
