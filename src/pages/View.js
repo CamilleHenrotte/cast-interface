@@ -1,4 +1,3 @@
-import MainGrid from "../Components/MainGrid";
 import styled from "styled-components";
 import logoCeres from "../Components/photos/logo-ceres.png";
 import logoEthereum from "../Components/photos/Ethereum.svg.png";
@@ -72,26 +71,7 @@ const H1 = styled.h1`
   display: inline-block;
   grid-column: span 2;
 `;
-const H2 = styled.h2`
-  opacity: 1;
-  color: rgba(55, 70, 90, 1);
-  font-family: "Poppins";
-  font-size: 36px;
-  font-weight: 900;
-  font-style: normal;
-  letter-spacing: 0px;
-  text-align: left;
-  padding-left: 150px;
-  padding-right: 150px;
-`;
-const Line = styled.hr`
-  border: 3px solid rgba(184, 2, 0, 1);
-  margin-left: 150px;
-  opacity: 1;
-  width: 300px;
-  left: 0;
-  display: inline-block;
-`;
+
 const P = styled.p`
   font-family: "Poppins";
   font-size: 16px;
@@ -137,7 +117,7 @@ const View = () => {
     <>
       <Header>
         <div>
-          <img src={logoCeres}></img>
+          <img src={logoCeres} alt="logo Ceres"></img>
         </div>
         <div></div>
         <div></div>
@@ -147,7 +127,7 @@ const View = () => {
       </Header>
       <div>
         <Header>
-          <img src={socgen}></img>
+          <img src={socgen} alt="Société générale logo"></img>
           <H1>Société Générale Bond</H1>
         </Header>
       </div>
@@ -214,7 +194,9 @@ const View = () => {
           <button>Download Term Sheet</button>
         </div>
         <div>
-          <button onClick={navigateToInvest}>Invest</button>
+          <button onClick={navigateToInvest} alt="invest">
+            Invest
+          </button>
         </div>
       </NewHeader>
     </>

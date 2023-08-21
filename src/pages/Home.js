@@ -72,7 +72,7 @@ const Home = () => {
     <>
       <Header>
         <div>
-          <img src={logoCeres}></img>
+          <img src={logoCeres} alt="logo ceres"></img>
         </div>
         <div></div>
         <div>

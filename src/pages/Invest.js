@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import back from "../Components/photos/back.svg";
-import cancel from "../Components/photos/cancel.svg";
 const Box = styled.div`
   padding: 10px;
   margin: 50px;

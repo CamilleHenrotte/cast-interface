@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import logo from "../Components/photos/logo.png";
 
 import useId from "react-id-generator";
-import Font, { Text } from "react-font";
+import Font from "react-font";
 const Box = styled.div`
   padding: 30px;
   margin: 10px;
@@ -131,7 +131,7 @@ const DebtItem = (item, index) => {
         </div>
         <div></div>
         <div>
-          <img src={logo} />
+          <img src={logo} alt="logo of the stablecoin" />
         </div>
       </HeaderSubGrid>
       <h1>{item.title}</h1>

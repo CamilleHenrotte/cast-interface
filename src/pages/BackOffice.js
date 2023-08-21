@@ -1,10 +1,7 @@
-import MainGrid from "../Components/MainGrid";
 import styled from "styled-components";
 import logoCeres from "../Components/photos/logo-ceres.png";
-import logoEthereum from "../Components/photos/Ethereum.svg.png";
 import socgen from "../Components/photos/socgen.png";
 
-import { useNavigate } from "react-router-dom";
 const Header = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 6fr 1fr;
@@ -71,20 +68,7 @@ const H3 = styled.h2`
   padding-left: 150px;
   padding-right: 150px;
 `;
-const Line = styled.hr`
-  border: 3px solid rgba(184, 2, 0, 1);
-  margin-left: 150px;
-  opacity: 1;
-  width: 300px;
-  left: 0;
-  display: inline-block;
-`;
-const P = styled.p`
-  font-family: "Poppins";
-  font-size: 16px;
-  padding-left: 150px;
-  padding-right: 150px;
-`;
+
 const Gridcontainer = styled.div`
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -115,7 +99,7 @@ const BackOffice = () => {
     <>
       <Header>
         <div>
-          <img src={logoCeres}></img>
+          <img src={logoCeres} alt="Ceres logo"></img>
         </div>
         <div></div>
         <div></div>
@@ -124,7 +108,8 @@ const BackOffice = () => {
       <H2>List Bond</H2>
       <H3>
         {" "}
-        <img src={socgen}></img>Société Générale Bond
+        <img src={socgen} alt="Société Générale logo"></img>Société Générale
+        Bond
       </H3>
 
       <Gridcontainer>
