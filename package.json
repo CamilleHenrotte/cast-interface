@@ -2,7 +2,7 @@
   "name": "cast-interface",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://camillehenrotte.github.io/cast-interface",
+  "homepage": "https://CamilleHenrotte.github.io/cast-interface",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^18.2.0",
